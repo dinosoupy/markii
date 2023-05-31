@@ -9,7 +9,6 @@
   <Carousel />
   <Header heading="Questions? Answers." subheading="" />
   <Faq />
-  <Footer />
 </template>
 
 <script>
@@ -20,7 +19,6 @@ import Header from '@/components/Header.vue'
 import Stats from '@/components/Stats.vue'
 import FeatureGrid from '@/components/FeatureGrid.vue'
 import Faq from '@/components/Faq.vue'
-import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'HomeView',
@@ -32,7 +30,6 @@ export default {
     Stats,
     FeatureGrid,
     Faq,
-    Footer
   }
 }
 </script>

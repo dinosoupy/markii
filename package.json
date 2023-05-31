@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "docs:dev": "vitepress dev src/blog",
+    "docs:build": "vitepress build src/blog",
+    "docs:preview": "vitepress preview src/blog"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.13",
@@ -19,6 +22,7 @@
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2",
-    "vite": "^4.3.5"
+    "vite": "^4.3.5",
+    "vitepress": "^1.0.0-beta.1"
   }
 }

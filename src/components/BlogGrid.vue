@@ -43,7 +43,7 @@ const posts = [
     id: 1,
     imageUrl: '@/assets/image/blog-thumbnail.jpeg',
     title: 'Boost your conversion rate Boost your conversion rate Boost your conversion rate',
-    href: '#',
+    href: '/api-examples',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     category: 'Marketing',

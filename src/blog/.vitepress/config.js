@@ -4,6 +4,7 @@ import { fileURLToPath, URL } from 'node:url'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "AM Films Blog",
+  base: '/blog/',
   description: "Blog description",
   themeConfig: {
     search: {
